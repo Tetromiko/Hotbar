@@ -87,10 +87,6 @@ namespace Hotbar.Controls
             {
                 Process.Start(file);
             }
-            else
-            {
-                MessageBox.Show("The program does not exist at the specified path.");
-            }
         }
 
         private void box_MouseEnter(object sender, MouseEventArgs e)
